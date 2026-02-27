@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Smart Inventory Management System</h1>
+    <main>
+        <section class="part1">
+            <h2>Inventry Details</h2>
+            <div class="add_data">
+                
+                <form>
+                    <input required type="text" name="name" placeholder="Enter name">
+
+                    <select name="category">
+                        <option value="">Select category</option>
+                        <option>Stationery</option>
+                        <option>Utility</option>
+                        <option>Furniture</option>
+                    </select>
+
+                    <input required type="text" placeholder="Owner">
+                    <select name="Priority">
+                        <option value="">Priority</option>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
+                    <input required type="number" placeholder="Price">
+
+                    <input type="date" placeholder="CreatedOn">
+
+                    <button>Add Product</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="part2">
+            <div class="all_data">
+                
+            </div>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
