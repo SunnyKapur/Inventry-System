@@ -83,5 +83,12 @@ allData.addEventListener('click', function (dets) {
 })
 
 
-    /*  */ 
+
+
+
+
+
+
+
+
 //  ${idx >= defaultItem.length ? `<button id="${idx - defaultItem.length}">Remove</button>` : ""}
