@@ -30,8 +30,8 @@ let form = document.querySelector('form')
 
 function renderData() {
     let sum = ''
-    let final = [...items, ...defaultItem]
-    final.forEach(function (e, idx) {
+    // let final = [...items, ...defaultItem]
+    items.forEach(function (e, idx) {
         sum = sum + `<div class="items">
                     <h3>${e.name}</h3>
                     <h4>Category: <span>${e.category}</span></h4>
@@ -41,7 +41,7 @@ function renderData() {
                     <h4>createdOn: ${e.createdOn}</h4>
                     <div>
                         <button id="${idx}">Edit</button>
-                        ${idx >= defaultItem.length ? `<button id="${idx - defaultItem.length}">Remove</button>` : ""}
+                       <button id="${idx}">Remove</button>
                     </div>
                 </div>`
     })
@@ -83,4 +83,5 @@ allData.addEventListener('click', function (dets) {
 })
 
 
-    /* <button id="${idx}">Remove</button> */ 
+    /*  */ 
+//  ${idx >= defaultItem.length ? `<button id="${idx - defaultItem.length}">Remove</button>` : ""}
