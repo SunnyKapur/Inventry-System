@@ -14,7 +14,6 @@ let defaultItem = [{
         price: 450,
         createdOn: "2026-01-12"
     }
-   
 ]
 
 let items = [];
@@ -84,7 +83,4 @@ allData.addEventListener('click', function (dets) {
 })
 
 
-
     /* <button id="${idx}">Remove</button> */ 
-
-
