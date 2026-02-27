@@ -13,15 +13,8 @@ let defaultItem = [{
         priority: "Low",
         price: 450,
         createdOn: "2026-01-12"
-    },
-    {
-        name: "Office Chair",
-        category: "Furniture",
-        owner: "Admin",
-        priority: "High",
-        price: 5200,
-        createdOn: "2026-01-20"
     }
+   
 ]
 
 let items = [];
@@ -93,3 +86,5 @@ allData.addEventListener('click', function (dets) {
 
 
     /* <button id="${idx}">Remove</button> */ 
+
+
